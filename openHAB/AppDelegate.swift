@@ -49,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
         os_log("didFinishLaunchingWithOptions started", log: .viewCycle, type: .info)
 
-        setupCrashReporting()
+//        setupCrashReporting()
 
         let appDefaults = ["CacheDataAgressively": NSNumber(value: true)]
         UserDefaults.standard.register(defaults: appDefaults)
