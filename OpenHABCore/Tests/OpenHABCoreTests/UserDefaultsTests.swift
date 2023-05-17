@@ -14,7 +14,7 @@
 import XCTest
 
 final class UserDefaultsTests: XCTestCase {
-    let data = UserDefaults(suiteName: "group.es.spaphone.openhab")!
+    let data = UserDefaults(suiteName: "group.eu.codehawks.openhab")!
 
     override func setUpWithError() throws {
         super.setUp()
